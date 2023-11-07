@@ -7,3 +7,4 @@ This repository is dedicated to my training on design patterns. I am currently f
 1. Strategy Pattern
 2. Observer Pattern
 3. Factory Pattern
+4. Singleton Pattern
