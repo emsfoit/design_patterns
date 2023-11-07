@@ -8,3 +8,4 @@ This repository is dedicated to my training on design patterns. I am currently f
 2. Observer Pattern
 3. Factory Pattern
 4. Singleton Pattern
+5. Builder Pattern 
