@@ -11,3 +11,4 @@ This repository is dedicated to my training on design patterns. I am currently f
 5. Builder Pattern 
 6. Facade Pattern
 7. Bridge Pattern
+8. template Pattern
