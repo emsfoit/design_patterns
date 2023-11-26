@@ -13,3 +13,4 @@ This repository is dedicated to my training on design patterns. I am currently f
 7. Bridge Pattern
 8. template Pattern
 9. Composite Pattern
+10. Flyweight Pattern
