@@ -73,3 +73,5 @@ In this example:
 - The `main` method in the `StatePatternExample` class demonstrates the usage of the State Pattern by creating a `Context` object and making requests, which trigger state transitions and state-specific behavior.
 
 The State Pattern is useful when an object's behavior depends on its internal state, and the state transitions are complex or dynamic. It allows for a cleaner and more modular design by encapsulating the behavior associated with each state into separate classes. This pattern is especially beneficial when an object needs to switch between multiple states during its lifetime.
+
+Check also this [example](https://www.newthinktank.com/2012/10/state-design-pattern-tutorial/)
