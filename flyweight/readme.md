@@ -93,3 +93,5 @@ In this example:
 - The client code demonstrates creating and serving coffee with different flavors, reusing the flyweight objects when the intrinsic state is the same.
 
 The Flyweight Pattern is useful when a large number of objects (more than 100000 object) with similar state need to be created and memory usage or computational expenses need to be minimized. It allows for efficient sharing of common state among multiple objects.
+
+Check also the code in https://www.newthinktank.com/2012/10/flyweight-design-pattern-tutorial/
