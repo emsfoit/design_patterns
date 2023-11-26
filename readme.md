@@ -16,3 +16,4 @@ This repository is dedicated to my training on design patterns. I am currently f
 10. Flyweight Pattern
 11. State Pattern
 12. Proxy Pattern
+13. Chain of Responsibility
