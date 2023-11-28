@@ -95,3 +95,41 @@ In this example:
 The Flyweight Pattern is useful when a large number of objects (more than 100000 object) with similar state need to be created and memory usage or computational expenses need to be minimized. It allows for efficient sharing of common state among multiple objects.
 
 Check also the code in https://www.newthinktank.com/2012/10/flyweight-design-pattern-tutorial/
+
+### Flyweight Examples:
+
+The Flyweight Design Pattern is used to minimize memory usage or computational expenses by sharing as much as possible with related objects; it is particularly useful when a large number of similar objects need to be created. Here are some real-world examples where the Flyweight Pattern is applicable:
+
+1. **Text Editors and Character Rendering:**
+   - In a text editor, each character in a document can be represented as a separate object.
+   - The Flyweight Pattern can be applied to share common character attributes (e.g., font, size) among multiple instances of the same character, reducing memory consumption.
+
+2. **Graphics and Shape Rendering:**
+   - In graphic design applications, individual graphical elements such as lines, circles, and rectangles may be represented as objects.
+   - The Flyweight Pattern can be used to share common attributes (e.g., color, style) among multiple instances of the same graphical element, optimizing memory usage.
+
+3. **Word Processors and Font Management:**
+   - In word processors, different parts of a document may have text with varying fonts, sizes, and styles.
+   - The Flyweight Pattern can be applied to share common font information among multiple instances of text with the same formatting, reducing the overall memory footprint.
+
+4. **Game Development and Terrain Tiles:**
+   - In a tile-based game, terrain tiles with different textures and properties can be represented as objects.
+   - The Flyweight Pattern can be used to share common properties (e.g., texture, collision behavior) among tiles of the same type, conserving memory and improving performance.
+
+5. **Web Caching and Content Delivery Networks (CDNs):**
+   - Content Delivery Networks (CDNs) often cache and distribute content, such as images and stylesheets, to improve website performance.
+   - The Flyweight Pattern can be applied to cache and share common resources among multiple requests, reducing the load on servers and improving response times.
+
+6. **Inventory Management Systems:**
+   - In an inventory system, products with similar attributes may be represented as individual objects.
+   - The Flyweight Pattern can be used to share common attributes (e.g., product name, category) among instances of products with the same characteristics, optimizing memory usage.
+
+7. **Document Object Model (DOM) in Web Browsers:**
+   - In web browsers, the DOM represents the structure of a web page using objects for elements like paragraphs, images, and headings.
+   - The Flyweight Pattern can be applied to share common attributes (e.g., tag name, attributes) among instances of similar DOM elements, reducing the memory footprint of the DOM tree.
+
+8. **Financial Applications and Currency Objects:**
+   - In financial applications dealing with multiple currencies, currency objects with exchange rates and symbols may be created.
+   - The Flyweight Pattern can be used to share common currency information among instances of the same currency, avoiding unnecessary duplication of data.
+
+In these examples, the Flyweight Pattern helps reduce the memory usage and computational overhead associated with creating and managing a large number of similar objects by sharing common attributes. This optimization is particularly beneficial when dealing with a large number of instances and when the shared state can be externalized and shared among multiple objects.
